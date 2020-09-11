@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestRail.Tests": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}

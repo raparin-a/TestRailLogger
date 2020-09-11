@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>NUnit attributes support for TestRail.TestLogger</Description>
+    <Authors>ttcore</Authors>
+    <Company>pm.bet</Company>
+    <Product>TestRail Logger NUnit</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.6.0" />
+  </ItemGroup>
+
+</Project>

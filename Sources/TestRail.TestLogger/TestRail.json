@@ -1,0 +1,10 @@
+{
+  "ProjectName": "project name",
+  "RunNameTemplate": "run name - regular expression",
+  "Url": "https://testrail.com/index.php",
+  "Disabled": false,
+  "User": {
+    "Name": "username@pm.bet",
+    "Password": "password"
+  }
+}

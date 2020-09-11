@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>ttcore</Authors>
+    <Company>pm.bet</Company>
+    <Product>TestRail Logger xUnit</Product>
+    <Description>xUnit attributes support for TestRail.TestLogger</Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.0" />
+  </ItemGroup>
+
+</Project>

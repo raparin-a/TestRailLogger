@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "TestRail.Debug": {
+      "commandName": "Executable",
+      "executablePath": "dotnet",
+      "commandLineArgs": "vstest ./TestRail.Debug.dll --logger:TestRail",
+      "workingDirectory": "$(ProjectDir)\\bin\\$(Configuration)\\netcoreapp2.1\\",
+      "nativeDebugging": true
+    }
+  }
+}

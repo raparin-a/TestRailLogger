@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>netstandard2.0</TargetFramework>  
+    <Authors>ttcore</Authors>
+    <Company>pm.bet</Company>
+    <Product>TestRail Logger</Product>
+    <PackageTags>TestRail vstest xunit nunit</PackageTags>
+    <Description>Vstest logger which publishes results to TestRail run.</Description>
+    <PackageIconUrl></PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TestRail.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TestRail.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.5" />
+    <PackageReference Include="Microsoft.TestPlatform.ObjectModel" Version="16.6.1" />
+    <PackageReference Include="TestRail" Version="2.0.3" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>
